@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         DownloadTask task = new DownloadTask();
         String result = null;
         try {
-            result = task.execute("http://www.zappycode.com").get();
+            result = task.execute("https://www.zappycode.com").get();
         } catch (Exception e) {
             e.printStackTrace();
         }
