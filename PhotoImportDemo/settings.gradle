@@ -1,0 +1,2 @@
+rootProject.name='PhotoImportDemo'
+include ':app'
